@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>APP WEB DJ COM IA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script
+src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"> </script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body style="background: url(background.jpg);">
+<center>
+  <h1 class= "btn btn-warning" style= "color: rgb(225, 241, 255);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  font-size: 60px;
+  width: 100%;
+  margin: 0;">
+    App Web DJ
+  </h1>
+<br>
+<br>  
+  <button id="btn" class="btn btn-success" onclick="Start()">
+    Reproduzir
+  </button>
+<div id="speed" style="float: right;">
+  <img src="disk.gif" style="width: 200px;
+  border-radius: 100px;" alt="">
+  <br>
+  <p class="btn btn-danger" id="Speed">
+    Velocidade = x
+  </p>
+</div>
+
+<div id="volume" style="float: left;">
+  <img src="disk.gif" style="width: 200px;
+  border-radius: 100px;" alt="">
+  <br>
+  <p class="btn btn-danger" id="Volume">
+    Volume = 
+  </p>
+</div>
+
+
+</center>
+<script src="main.js"></script>
+</body>
+</html>
